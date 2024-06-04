@@ -1,0 +1,46 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.main {
+    display: grid;
+    gap: 10px;
+    padding: 30px 50px;
+    border: 3px solid rgb(57, 57, 57) ;
+    height: 200px;
+    width: 102px;
+    justify-content: center;
+    text-align: center;
+    background: rgb(226, 226, 226);
+}
+.main p {
+    font-size: 18px;
+    font-family: cursive;
+    padding-bottom: -30px;
+}
+.main input{
+    max-height: 100px;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid;
+    font-size: 18px;
+    font-family: cursive;
+    background: linear-gradient(rgba(85, 0, 255, 0.333),#0077fe);
+}
+.main input:focus{
+    background: linear-gradient(#0077fe,rgba(85, 0, 255, 0.333));
+}
+.main button{
+    border-radius: 50px;
+    border: 2px solid rgb(255, 0, 221);
+    background: linear-gradient(#ff00b7,#0077fe);
+    cursor: pointer;
+    font-size: 17px;
+    font-family: cursive;
+}
+.main button:hover{
+    opacity: 0.8;
+}
